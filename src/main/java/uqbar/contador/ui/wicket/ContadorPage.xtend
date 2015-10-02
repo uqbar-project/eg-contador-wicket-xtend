@@ -16,7 +16,8 @@ class ContadorPage extends WebPage {
 	int contador
 	
 	new() {
-		val labelContador = new Label("contador", new PropertyModel(this, "contador"));
+		val labelContador = new Label("contador", new PropertyModel(this, "contador"))
+//		val labelContador = new Label("contador", String.valueOf(contador))
         this.addChild(labelContador)
         labelContador.outputMarkupId = true
         

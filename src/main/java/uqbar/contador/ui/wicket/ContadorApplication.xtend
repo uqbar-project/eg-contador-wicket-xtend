@@ -8,7 +8,7 @@ import org.apache.wicket.protocol.http.WebApplication
 class ContadorApplication extends WebApplication {
 	
 	override getHomePage() {
-		return ContadorPage
+		ContadorPage
 	}
 	
 }
